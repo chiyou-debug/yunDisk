@@ -1,0 +1,96 @@
+/* 设置登录窗口大小 */
+Login
+{
+	min-width: 640px;
+	min-height: 480px;
+	border-image: url(:/images/login_bk.jpg);
+}
+
+/* 登录窗口所有控件字体样式设置 */
+Login *
+{
+	font-family: 新宋体;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/* 登录/注册/服务器设置标题 */
+QLabel#loginTitle, #registerTitle, #serverTitle
+{
+	font-family: 华文新魏;
+	font-size: 26pt;
+}
+
+/* 没有账号, 马上注册按钮 */
+QToolButton#regAccount
+{
+	color: orange;
+	text-decoration: underline;
+	font-family: 新宋体;
+	font-size: 12pt;
+}
+
+/* 标题栏按钮 - 设置 */
+QToolButton#setBtn
+{
+	border-image: url(:/images/login_setting.png);
+}
+QToolButton#setBtn:hover
+{
+
+}
+QToolButton#setBtn:pressed
+{
+
+}
+
+QToolButton#minBtn, #closeBtn, #setBtn
+{
+	min-width: 32px;
+	min-height: 32px;
+}
+/* 标题栏按钮 - 最小化 */
+QToolButton#minBtn
+{
+	border-image: url(:/images/login_min.png);
+}
+QToolButton#minBtn:hover
+{
+
+}
+QToolButton#minBtn:pressed
+{
+	
+}
+
+/* 标题栏按钮 - 关闭 */
+QToolButton#closeBtn
+{
+	border-image: url(:/images/login_close.png);
+}
+QToolButton#closeBtn:hover
+{
+
+}
+QToolButton#closeBtn:pressed
+{
+	
+}
+
+/* 标题栏logo */
+QLabel#logo
+{
+	min-width: 45px;
+	min-height: 45px;
+	border-image:url(:/images/logo.ico);
+}
+
+/* 标题栏 - 标题 */
+QLabel#title
+{
+	color:white;
+	font-family: 微软雅黑;
+	font-size: 20pt;
+	font-weight: bold;
+}
+

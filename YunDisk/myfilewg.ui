@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyFileWg</class>
+ <widget class="QWidget" name="MyFileWg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QListWidget" name="listWidget">
+     <property name="flow">
+      <enum>QListView::TopToBottom</enum>
+     </property>
+     <property name="viewMode">
+      <enum>QListView::IconMode</enum>
+     </property>
+     <property name="currentRow">
+      <number>-1</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新建项目</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
